@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+
+       "http://www.w3.org/TR/html4/loose.dtd">
+   <html>
+   <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <title>User Login</title>
+   </head>
+
+<body>
+<center>
+Sign Up<br/><br/>
+<form action = "/signup" method = "post">
+     User Name<br/>
+     <input type="text" name="username"/><br/>
+     Password<br/>
+     <input type="password" name="password"/><br/>
+     Repeat Password<br/>
+     <input type="password" name="repeat_password"/><br/>
+
+     Email<br/>
+     <input type="text" name="email"/><br/>
+     <hr/>
+     <input type="submit" value="Sign Up"/>
+     
+
+</form>
+</center>
+</body>
+</html>
